@@ -56,7 +56,7 @@ int main()
         }
         if(v1.size() < 3)
         {
-            for(int j: v1) cout<<j;
+            for(int j: v1) cout<<j%10;
             break;
         }
     }
